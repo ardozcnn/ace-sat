@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f4f8fb;
+  --ink: #0b1520;
+  --signal: #0d8a72;
+  --ember: #d4682a;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+    Georgia, "Times New Roman", serif;
+  --font-sans: "Segoe UI", "Avenir Next", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-mono: "Cascadia Mono", "Sarasa Mono", "SF Mono", "Consolas",
+    "Liberation Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--bg);
+  min-height: 100vh;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #d8f5ee;
+  color: #0b1520;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
