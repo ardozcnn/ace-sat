@@ -1,6 +1,6 @@
 # AceSAT
 
-**An adaptive SAT learning agent — not a chatbot.**
+**An adaptive SAT learning agent**
 
 Ace diagnoses skill gaps, runs **Khan-style single-skill missions** (no random Math↔Reading jumps), embeds **Desmos** on Math, rebuilds weekly study plans, and decides when to raise difficulty, scaffold down, or advance skills.
 
